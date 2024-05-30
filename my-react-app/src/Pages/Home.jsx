@@ -22,7 +22,7 @@ export default function Home() {
     <h1 className='text-3xl font-bold lg:text-6xl'>Welcome to VisionCrop</h1>
     <h6 className='text-1.5xl font-bold lg:text-3xl mt-2 lg:mt-4'><em>Farm Smarter! Grow Better!</em></h6>
     
-    <p className='text-md text-gray-500 mt-4 leading-relaxed'>
+    <p className='text-gray-500 text-xs sm:text-sm'>
       Here, you'll find a variety of articles and posts regarding crop management, pest control, soil health,
       and sustainable farming practices. At VisionCrop, we're dedicated to creating a collaborative farming community.
       Connect with fellow farmers and agricultural experts to share experiences, ask questions, and get advice
@@ -31,7 +31,7 @@ export default function Home() {
     
     <Link
       to='/search'
-      className='text-xs sm:text-sm text-teal-500 font-bold hover:underline mt-2'     >
+      className='text-xs sm:text-sm text-teal-500 font-bold hover:underline'     >
       View all posts
     </Link>
   </div>
