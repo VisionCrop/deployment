@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className='min-h-screen flex items-center justify-center'>
       <div className='max-w-screen-xl mx-auto p-3 text-center'>
-        <div>
+        <div className="gap-4 flex justify-center">
           <h1 className='text-3xl font-semibold text-center my-7'>
             About VisionCrop
           </h1>
