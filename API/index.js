@@ -15,7 +15,7 @@ mongoose.connect(process.env.MONGO).then(
     ).catch(
         (err) => {console.error(err)});
     const __dirname = path.resolve();
-
+const port = process.env.PORT || 3000;
 const app = express();
 app.use(express.json());
 app.use(cookieParser());
