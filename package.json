@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon API/index.js",
-    "start": "node API/index.js"
+    "start": "node API/index.js",
+    "build": "npm install && npm install --prefix my-react-app && npm run build --prefix my-react-app"
   },
   "keywords": [],
   "author": "",
